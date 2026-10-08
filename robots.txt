@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://robert-kent-prog.github.io/Eng_Enoch/sitemap.xml
