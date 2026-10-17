@@ -180,7 +180,9 @@
     footer p, footer a { color: #b7c0c8; }
     footer a:hover { color: #fff; }
     .footer-links a { display: block; margin-bottom: 6px; }
-    .footer-bottom { border-top: 1px solid rgba(255,255,255,.14); margin-top: 36px; padding-top: 20px; font-size: .92rem; color: #8b97a1; }
+    .staff-link { border: 1px solid rgba(255,255,255,.3); border-radius: 3px; padding: 6px 14px; font-size: .9rem; font-weight: 600; color: #dbe6ee; }
+    .staff-link:hover { background: rgba(255,255,255,.1); color: #fff; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,.14); margin-top: 36px; padding-top: 20px; font-size: .92rem; color: #8b97a1; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
     .whatsapp-float { position: fixed; right: 18px; bottom: 18px; width: 54px; height: 54px; border-radius: 50%; background: #1ea952; color: #fff; display: inline-flex; align-items: center; justify-content: center; font-size: 1.7rem; z-index: 999; box-shadow: 0 6px 16px rgba(0,0,0,.25); }
     .whatsapp-float:hover { background: #178a43; color: #fff; }
     a:focus-visible, button:focus-visible { outline: 3px solid var(--copper); outline-offset: 2px; }
@@ -452,7 +454,7 @@
           <p class="mb-0"><a href="https://wa.me/254745044995" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
         </div>
       </div>
-      <div class="footer-bottom">&copy; <span id="year"></span> Enock Plumbing Solutions. All rights reserved.</div>
+      <div class="footer-bottom"><span>&copy; <span id="year"></span> Enock Plumbing Solutions. All rights reserved.</span><a class="staff-link" href="quote.html"><i class="bi bi-receipt"></i> Quote</a></div>
     </div>
   </footer>
 
